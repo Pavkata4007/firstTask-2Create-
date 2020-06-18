@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+.mainHeader {
+    background-image: url(../images/Background.jpg);
+}
+.socialMedias {
+    text-align: left;
+    background-color: #404040;
+    padding: 2px;
+    padding-left: 170px;
+}
+#size {
+    width:30px;
+    height:30px;
+}
+#phoneNumber{
+    padding-right: 190px;
+    padding-top: 2px;
+}
+#info {
+    padding-top: 2px;
+}
+li {
+    display: inline-block;
+    size: 10 px;
+    text-align: center;
+}
+.secondList {
+    margin-top: 25px;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    color: #bfbfbf;
+}
+#onlyDesign{
+    width:150px;  
+    color: #424242; 
+    height:40px; 
+    vertical-align: middle;
+}
+.secondList > li{
+    padding-right: 10px;
+}
+#birdpic {
+    width:60px; 
+    height:43px; 
+    vertical-align: middle;
+}
+#register{
+    width:25px; 
+    height:25px;  
+    vertical-align: middle; 
+    margin-top: -10px;
+}
+#secondRight{
+    display: inline-block; 
+    margin-top: 5px; 
+    margin-left: -5px;
+}
+#keyPic {
+    width:25px; 
+    height:25px;  
+    vertical-align: middle;
+}
+#checkBox {
+    margin-top: 20px; 
+    padding-bottom: 70px;
+}
+#boxSize {
+    width: 350px; 
+    height: 200px;
+}
+.right {
+    float:right;
+    color: gray;
+    text-align: center;
+    font-size: 24px;
+}
+.bird {
+    margin-top: 150px;
+}
+.design {
+    margin-top: 70px;
+    font-size: 35px;
+    color: #424242;
+}
+.develop {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #666666;
+    
+}
+#boxColor {
+    color: #424242;
+}
+#pics {
+    width:100px; 
+    height:80px
+}
+.firstBlock {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding-top: 75px;
+    font-size: 25px;
+}
+.secondBlock {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    padding-top: 75px;
+    font-size: 25px;
+}
+.first{
+    margin-top: 40px;
+    text-align: center;
+}
+.second{
+    text-align: center;
+}
+#lastButton {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+.button{
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border: none; 
+    font-size: 20px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(../thunderbolt/Thunderbolt_family_otf/THUNDERBOLT76-Regular.otf);
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
